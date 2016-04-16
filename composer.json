@@ -1,0 +1,28 @@
+{
+    "name": "ufo-cms/symfony-front-controller",
+    "description": "",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Alex Maystrenko",
+            "email": "ashterix69@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "version" : "1.0.0",
+    "type" : "symfony-bundle",
+    "homepage": "https://github.com/UFO-CMS/symfony-front-controller",
+    "keywords" : ["ufo", "symfony", "front controller", "bundle"],
+    "require" : {
+        "php": ">=5.4.2",
+        "symfony/symfony": ">=2.6"
+    },
+    "autoload" : {
+        "psr-4" : { "UfoCms\\FrontControllerBundle\\" : "src" }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+}
