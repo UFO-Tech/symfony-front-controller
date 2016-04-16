@@ -1,6 +1,6 @@
 UFO FrontController
 =========
-Easy front controller for Symphony framework.
+Easy front controller for Symfony framework.
 
 
 Requirement
@@ -30,7 +30,7 @@ See Example folder
 License
 -------
 
-This library is available under the GPL-2.0+ license.
+This library is available under the GPL-3.0+ license.
 
 [Composer]: http://getcomposer.org/
 
