@@ -22,12 +22,12 @@ class FrontController
     /**
      * @var FrontControllerConfig
      */
-    private $config;
+    protected $config;
 
     /**
      * @var FrontController
      */
-    private static $instance;
+    protected static $instance;
 
     /**
      * FrontController constructor.
