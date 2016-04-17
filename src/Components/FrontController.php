@@ -10,7 +10,7 @@
  * Time: 11:44
  */
 
-namespace UfoCms\FrontControllerBundle\Components;
+namespace UfoCms\FrontController\Components;
 
 
 use AppKernel;

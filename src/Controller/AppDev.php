@@ -6,11 +6,11 @@
  * Time: 11:09
  */
 
-namespace UfoCms\FrontControllerBundle\Controller;
+namespace UfoCms\FrontController\Controller;
 
 
-use UfoCms\FrontControllerBundle\Components\FrontController;
-use UfoCms\FrontControllerBundle\Components\FrontControllerConfig;
+use UfoCms\FrontController\Components\FrontController;
+use UfoCms\FrontController\Components\FrontControllerConfig;
 
 class AppDev extends FrontController
 {

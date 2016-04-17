@@ -10,7 +10,7 @@
  * Time: 12:32
  */
 
-namespace UfoCms\FrontControllerBundle\Components;
+namespace UfoCms\FrontController\Components;
 
 
 class FrontControllerConfig

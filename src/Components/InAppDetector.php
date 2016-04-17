@@ -10,7 +10,7 @@
  * Time: 10:47
  */
 
-namespace UfoCms\FrontControllerBundle\Components;
+namespace UfoCms\FrontController\Components;
 
 
 final class InAppDetector

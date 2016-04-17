@@ -1,6 +1,6 @@
 <?php
 
-use UfoCms\FrontControllerBundle\Controller\AppDev;
+use UfoCms\FrontController\Controller\AppDev;
 
 umask(0000);
 
