@@ -16,7 +16,7 @@ class App extends FrontController
 {
     public static function init()
     {
-        $controller = parent::init(FrontControllerConfig::ENV_PROD);
+        $controller = parent::initController(FrontControllerConfig::ENV_PROD);
         $controller ->getConfig()
             ->setDebugMode(false)
             ->setLoadClassCache(true)

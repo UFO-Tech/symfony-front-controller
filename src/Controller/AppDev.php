@@ -16,7 +16,7 @@ class AppDev extends FrontController
 {
     public static function init()
     {
-        $controller = parent::init(FrontControllerConfig::ENV_DEV);
+        $controller = parent::initController(FrontControllerConfig::ENV_DEV);
         $controller ->getConfig()
             ->addAllowedIP('127.0.0.1')
             ->setDebugMode(true)

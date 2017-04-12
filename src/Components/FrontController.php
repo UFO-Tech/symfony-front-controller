@@ -17,7 +17,7 @@ use AppKernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
 
-class FrontController
+abstract class FrontController
 {
     /**
      * @var FrontControllerConfig
@@ -104,7 +104,7 @@ class FrontController
      * @param string $environment
      * @return FrontController
      */
-    public static function init($environment = FrontControllerConfig::ENV_PROD){
+    protected static function initController($environment = FrontControllerConfig::ENV_PROD){
         $controller = self::getInstance();
         if (!$controller) {
             $controller = new static($environment);
